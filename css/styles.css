@@ -39,10 +39,6 @@ html {
     font-weight: 300;
 }
 
-
-
-
-
 .people {
     display: flex;
     margin: 0 auto;
@@ -88,17 +84,12 @@ html {
 .people__links--mode {
     width: 45px;
     height: 45px;
+    line-height: 45px;
     text-align: center;
     background-color: #5ecbe7;
     color: #fff;
     font-size: 25px;
     margin: 5px;
-    padding: 5px;
-}
-
-.fab {
-    width: 100%;
-    height: 100%;
 }
 
 .people__links--mode:hover {
@@ -106,16 +97,9 @@ html {
     transform: scale(1.1);
 }
 
-
-
-
-
-
-
 .people__about {
     margin: 0 15px;
     width: 100%;
-    height: 100%;
 }
 
 .people__name {
